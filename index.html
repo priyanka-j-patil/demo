@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>coach dashboard</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.png">
+
+    <!-- <link rel="stylesheet" href="../../css/main.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="si-main">
+        <div class="si-wrapper">
+            <div class="si-page-bg">
+                <div class="si-main__container si-Program">
+                    <div class="si-header">
+                        <div class="si-left">
+                            <div class="si-Logo"><img src="images/Logo.png"></div>
+                        </div>
+                    </div>
+                    <div class="si-mobilemenu activeOut">
+                        <!-- mobile view activeIn Leftpanel open,activeOut Leftpanel Out  -->
+                        <span
+                            class="si-menuicon"></span><!-- mobile view replace si-menuicon into si-close for close icon  -->
+
+                        <div class="si-right">
+                            <div class="si-profileBox">
+                                <div class="si-profile"><img src="../../images/admin.png"></div>
+                                <span class="icon-carret"></span>
+                                <div class="si-profileInfo">
+                                    <span class="si-profileName">
+                                        <span class="si-firstName">Pullela</span>
+                                        <span class="si-lastName">Gopichand <span class="si-arrow"></span></span>
+                                        <!---si-arrow for mobile view-->
+
+                                    </span>
+
+                                    <div class="si-otherDetails">
+                                        <span class="si-Profession">Coach </span>
+                                        <span class="si-seprator">| </span>
+                                        <span class="si-sports">Shooting</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="si-leftPanel">
+
+                            <div class="si-menuWrp">
+                                <div class="si-menu activeIn">
+                                    <div class="si-menu-title si-Training">
+                                        <div class="si-image"> <span class="icon-training"></span></div>
+
+
+                                        <span class="si-Menuehead">S&C Training</span>
+                                        <span class="si-drparrow"></span>
+                                    </div>
+                                    <div class="si-submenu">
+                                        <ul>
+                                            <li class="active">Programs</li>
+                                            <li>Active Programs</li>
+                                            <li>Completed Programs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="si-menu ">
+                                    <div class="si-menu-title si-Athletes">
+                                        <div class="si-image"> <span class="icon-user"></span></div>
+
+                                        <span class="si-Menuehead">Athletes</span>
+
+                                        <span class="si-drparrow"></span>
+                                    </div>
+                                    <div class="si-submenu">
+                                        <ul>
+                                            <li class="active">Programs</li>
+                                            <li>Active Programs</li>
+                                            <li>Completed Programs</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="si-rightPart">
+                        <div class="si-headwrp">
+                            <!-- <div class="si-heading"><span>Templates</span></div> -->
+                            <div class="si-headcover">
+                                <div class="si-heading">
+                                    <div class="si-Disabled">
+                                        <div class="si-Title">Dashboard</div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- ----dashboard-new -main-sec-->
+                        <div class="si-main-content si-dashboard-new si-coach-dashboard">
+                            <div class="si-upcoming-heading">Upcoming Competition</div>
+                            <div class="si-upcoming-outer-wrapper">
+                                <div class="si-upcoming-wrapper si-upcoming-wrapper-active">
+                                    <div class="si-date-wrap">
+                                        <div class="si-upcoming-date"><span class="specific-date">1st</span><br>june 23</div>
+                                        <div class="si-upcoming-daysleft">20 Days left</div>
+                                    </div>
+                                    <div class="si-status-wrap">
+                                        <p class="si-upcoming-status">13th Hockey India Junior Men National Championship, 2023</p>
+                                    </div>
+                                </div>
+                                <div class="si-upcoming-wrapper">
+                                    <div class="si-date-wrap">
+                                        <div class="si-upcoming-date"><span class="specific-date">2nd</span><br>july 23</div>
+                                        <div class="si-upcoming-daysleft">30 Days left</div>
+                                    </div>
+                                    <div class="si-status-wrap">
+                                        <p class="si-upcoming-status">All India Kumar Surendra Singh Shooting Championship, 2023 </p>
+                                    </div>
+                                </div>
+                                <div class="si-upcoming-wrapper">
+                                    <div class="si-date-wrap">
+                                        <div class="si-upcoming-date"><span class="specific-date">3rd</span><br>sept 23</div>
+                                        <div class="si-upcoming-daysleft">120 Days left</div>
+                                    </div>
+                                    <div class="si-status-wrap">
+                                        <p class="si-upcoming-status">Federation Cup Senior Athletics Championships, 2023</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="si-chart-header">
+                                <span class="si-chart-header__title">S&C Training Program - Overall Performance till Date</span>
+                                <div class="form-control ">
+                                    <select class="search_tes si-input">
+                                      <option>Tournament Preparation Program</option>
+                                      <option>Athletics Training Progra</option>
+                                     
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="si-chart-wrapper">
+                                <img src="images/bargraph.svg" alt="graph">
+                            </div>
+                            <div>
+                                <div class="rpe-date">Last Session RPE -  8th May 2023 </div>
+                            </div>
+                            <ul class="performance-level-list">
+                                
+                                <li class="performance-level-list__item">
+                                    <div class="performance-level very-light">
+                                        <span class="performance-level__num very-light">1</span>
+                                        <span class="performance-level__text"> Very Light</span>
+                                    </div>
+                                    <span class="level-indicator"></span>
+                                </li>
+                                <li class="performance-level-list__item ">
+                                    <div class="performance-level light">
+                                        <span class="performance-level__num light">2-3</span>
+                                        <span class="performance-level__text"> Light</span>
+                                    </div>
+                                    <span class="level-indicator"></span>
+                                </li>
+                                
+                                <li class="performance-level-list__item">
+                                    <div class="performance-level moderate">
+                                        <span class="performance-level__num moderate">4-6</span>
+                                        <span class="performance-level__text"> Moderate</span>
+                                    </div>
+                                    <span class="level-indicator"></span>
+                                </li>
+                                <li class="performance-level-list__item">
+                                    <div class="performance-level vigorous">
+                                        <span class="performance-level__num vigorous">7-8</span>
+                                        <span class="performance-level__text"> Vigorous</span>
+                                    </div>
+                                    <span class="level-indicator"></span>
+                                </li>
+                                <li class="performance-level-list__item ">
+                                    <div class="performance-level very-hard ">
+                                        <span class="performance-level__num very-hard">9</span>
+                                        <span class="performance-level__text"> Very Hard</span>
+                                    </div>
+                                    <span class="level-indicator"></span>
+                                </li>
+                                <li class="performance-level-list__item active">
+                                    <div class="performance-level max-effort" >
+                                        <span class="performance-level__num max-effort">10</span>
+                                        <span class="performance-level__text"> Max Efforts</span>
+                                    </div>
+                                    <span class="level-indicator"></span>
+                                </li>
+                            </ul>
+                            <ul class="players-list">
+                                <li class="players-list__item player-card">
+                                    <div class="player-card__img">
+                                        <img src="images/shubham-img.svg" alt="">
+                                    </div>
+                                    <div class="player-card__name">Shubham<br>
+                                        Suryawanshi</div>
+                                </li>
+                                <li class="players-list__item player-card">
+                                    <div class="player-card__img">
+                                        <img src="images/sameer-img.svg" alt="">
+                                    </div>
+                                    <div class="player-card__name">Sameer
+                                        <br>
+                                        Divate</div>
+                                </li>
+                                <li class="players-list__item player-card">
+                                    <div class="player-card__img">
+                                        <img src="images/isha-img.svg" alt="">
+                                    </div>
+                                    <div class="player-card__name">Isha
+                                        <br>
+                                        Mone</div>
+                                </li>
+                                <li class="players-list__item player-card">
+                                    <div class="player-card__img">
+                                        <img src="images/amir-img.svg" alt="">
+                                    </div>
+                                    <div class="player-card__name">Amir
+                                        <br>
+                                        Shikalgar</div>
+                                </li>
+                                <li class="players-list__item player-card">
+                                    <div class="player-card__img">
+                                        <img src="images/snehal-img.svg" alt="">
+                                    </div>
+                                    <div class="player-card__name">Snehal
+                                        <br>
+                                        Patil</div>
+                                </li>
+                              
+                                
+                               
+
+                            </ul>
+                        </div>
+                        <!-- end-main-sec -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/libraries/jquery.min.js"></script>
+    <script src="../js/libraries/swiper.min.js"></script>
+
+
+</body>
+
+</html>
